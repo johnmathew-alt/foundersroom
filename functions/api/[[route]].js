@@ -22,12 +22,12 @@ const LEAD_SOURCE = 'Founders Room';
 const MARKER = 'Founders Room application FR-';
 
 const CATEGORY_TAGS = {
-  'Aspiring Founder / Student Founder': 'FR Aspiring Founder',
-  'Startup Founder': 'FR Startup Founder',
-  'Growth-Stage Founder': 'FR Growth Stage Founder',
-  'Investor': 'FR Investor',
-  'Consultant / Service Provider': 'FR Consultant',
-  'Ecosystem Partner / Community Enabler': 'FR Ecosystem Partner',
+  'Founder': 'FR Founder',
+  'Operator': 'FR Operator',
+  'Ecosystem Enabler': 'FR Ecosystem Enabler',
+  'Community Builder': 'FR Community Builder',
+  'Advisor': 'FR Advisor',
+  'Partner': 'FR Partner',
   'Other': 'FR Other'
 };
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -171,7 +171,7 @@ function applicationText(d, reference) {
     'What they want to gain:',
     d.gain,
     '',
-    'What they could contribute:',
+    'How they could contribute:',
     d.contribution || '(not answered)'
   ].join('\n');
 }
