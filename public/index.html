@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Founders Room | Team Counsel</title>
-<meta name="description" content="The Founders Room is Team Counsel’s exclusive WhatsApp community for founders and startup ecosystem players. Request access to join.">
+<title>Founders’ Room | Team Counsel</title>
+<meta name="description" content="The Founders’ Room is Team Counsel’s exclusive WhatsApp community for founders and startup ecosystem players. Request access to join.">
 <meta name="theme-color" content="#FAF8F5">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Team Counsel">
-<meta property="og:title" content="Founders Room | Team Counsel">
+<meta property="og:title" content="Founders’ Room | Team Counsel">
 <meta property="og:description" content="A community for founders building what comes next.">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -151,6 +151,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
 .eyebrow-on-dark::before { box-shadow: none; }
 
 .section-head { max-width: 720px; }
+.ecosystem .section-head { max-width: none; }
 .section-head h2 + p { margin-top: var(--s-2); color: var(--text-muted); font-size: var(--fs-lead); }
 
 /* ── Buttons ────────────────────────────────────────────────────────────── */
@@ -514,7 +515,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
 <script>
   /* ── Deployment configuration ─────────────────────────────────────────────
      applicationsEndpoint: HTTPS URL (or same-origin path) of the existing
-     Founders Room applications API. Leave empty until the backend is live;
+     Founders’ Room applications API. Leave empty until the backend is live;
      the form will then refuse submissions and say so. No secrets here.     */
   window.FOUNDERS_ROOM_CONFIG = {
     applicationsEndpoint: "/api/apply",
@@ -553,7 +554,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
         <h1 id="hero-title">A community for founders building what comes next.</h1>
         <p class="lead">Team Counsel brings together founders, operators and startup ecosystem enablers to build meaningful connections, share knowledge and create opportunities.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#request-access">Join the Founders Room <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a>
+          <a class="btn btn-primary" href="#request-access">Join the Founders’ Room <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a>
         </div>
       </div>
       <figure class="hero-media">
@@ -562,16 +563,16 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
     </div>
   </section>
 
-  <!-- ── 2. The Founders Room ───────────────────────────────────────────── -->
+  <!-- ── 2. The Founders’ Room ───────────────────────────────────────────── -->
   <section class="section feature" id="founders-room" aria-labelledby="feature-title">
     <div class="container">
       <div class="feature-panel">
         <div class="feature-copy reveal">
           <p class="eyebrow eyebrow-on-dark">The founder community</p>
-          <h2 id="feature-title">The Founders Room</h2>
-          <p>The Founders Room is Team Counsel’s exclusive WhatsApp community for founders and startup ecosystem players.</p>
+          <h2 id="feature-title">The Founders’ Room</h2>
+          <p>The Founders’ Room is Team Counsel’s exclusive WhatsApp community for founders and startup ecosystem players.</p>
           <div class="feature-cta">
-            <a class="btn btn-accent" href="#request-access">Join the Founders Room <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a>
+            <a class="btn btn-accent" href="#request-access">Join the Founders’ Room <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a>
           </div>
         </div>
 
@@ -607,7 +608,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
   </section>
 
   <!-- ── 3. Request access ──────────────────────────────────────────────── -->
-  <section class="section apply" id="request-access" aria-label="Request access to the Founders Room">
+  <section class="section apply" id="request-access" aria-label="Request access to the Founders’ Room">
     <div class="container">
 
       <div class="apply-card reveal">
@@ -689,7 +690,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
             <div class="form-row form-row-2">
 
             <div class="field" data-field="gain">
-              <label for="gain">What would you like to gain from the Founders Room?</label>
+              <label for="gain">What would you like to gain from the Founders’ Room?</label>
               <textarea id="gain" name="gain" rows="4" maxlength="1000" required aria-describedby="gain-count gain-error"></textarea>
               <div class="field-meta"><p class="field-error" id="gain-error" hidden></p><span class="char-count" id="gain-count" data-count-for="gain" aria-live="off">0 / 1000</span></div>
             </div>
@@ -705,7 +706,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
           <div class="form-actions">
   <button class="btn btn-primary btn-submit" type="submit" data-submit>
             <span class="btn-spinner" aria-hidden="true"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21 12a9 9 0 1 1-6.219-8.56" /></svg></span>
-            <span data-submit-label>Join the Founders Room</span>
+            <span data-submit-label>Join the Founders’ Room</span>
             <span class="btn-arrow" aria-hidden="true"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></span>
           </button>
             <p class="form-notice" data-not-connected hidden><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10" /><line x1="12" x2="12" y1="8" y2="12" /><line x1="12" x2="12.01" y1="16" y2="16" /></svg><span>Online requests open soon. The application service is not connected yet, so requests sent from this page are not recorded.</span></p>
@@ -735,7 +736,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
     <div class="container">
       <div class="section-head reveal">
         <p class="eyebrow eyebrow-on-dark">What to expect</p>
-        <h2 id="ecosystem-title">What the ecosystem offers founders</h2>
+        <h2 id="ecosystem-title">What the Team Counsel ecosystem offers founders</h2>
       </div>
       <ol class="pillars">
         <li class="pillar reveal" style="--reveal-delay:0ms">
@@ -756,7 +757,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
         </li>
         <li class="pillar reveal" style="--reveal-delay:240ms">
           <span class="pillar-icon" aria-hidden="true"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /><path d="M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1" /></svg></span>
-          <div class="pillar-body"><h3>Founder conversations</h3><p>Honest, off-the-record conversations with founders and operators.</p></div>
+          <div class="pillar-body"><h3>Founder conversations</h3><p>Honest, meaningful conversations with founders and operators.</p></div>
         </li>
       </ol>
     </div>
@@ -980,7 +981,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
     if (!value("company")) e.company = "Please enter a company or project name, or choose “Use N/A”.";
     if (!value("memberCategory")) e.memberCategory = "Please choose the category that fits you best.";
     else if (MEMBER_CATEGORIES.indexOf(value("memberCategory")) === -1) e.memberCategory = "Please choose one of the listed categories.";
-    if (!value("gain")) e.gain = "Please tell us what you’d like to gain from the Founders Room.";
+    if (!value("gain")) e.gain = "Please tell us what you’d like to gain from the Founders’ Room.";
     else if (value("gain").length < 10) e.gain = "Please add a little more detail. A sentence or two is plenty.";
     return e;
   }
@@ -1072,7 +1073,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
     submitBtn.setAttribute("aria-disabled", String(on));
     submitBtn.disabled = on;
     form.setAttribute("aria-busy", String(on));
-    submitLabel.textContent = on ? "Sending your request…" : "Join the Founders Room";
+    submitLabel.textContent = on ? "Sending your request…" : "Join the Founders’ Room";
   }
 
   function toPayload() {
