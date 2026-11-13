@@ -135,7 +135,7 @@ function validate(b) {
   if (!d.currentRole) e.currentRole = 'Please tell us your current role.';
   if (!d.company) e.company = 'Please enter a company or project name, or choose “Use N/A”.';
   if (!CATEGORY_TAGS[d.memberCategory]) e.memberCategory = 'Please choose one of the listed categories.';
-  if (d.gain.length < 10) e.gain = 'Please add a little more detail — a sentence or two is plenty.';
+  if (d.gain.length < 10) e.gain = 'Please add a little more detail. A sentence or two is plenty.';
   return { data: d, errors: e };
 }
 
